@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="mindmap">
+        <div class="node concept">CONCEPT</div>
+        <div class="node evaluation">EVALUATION</div>
+        <div class="node study-case">STUDY CASE</div>
+        <div class="node conclusion">CONCLUSION</div>
+        <div class="node target-market">TARGET MARKET</div>
+        <div class="node option option-ev1">Option 1</div>
+        <div class="node option option-ev2">Option 2</div>
+        <div class="node option option-sc1">Option 1</div>
+        <div class="node option option-sc2">Option 2</div>
+        <div class="node option option-cn1">Option 1</div>
+        <div class="node option option-cn2">Option 2</div>
+        <div class="node option option-tm1">Option 1</div>
+        <div class="node option option-tm2">Option 2</div>
+      
+        <svg class="lines" width="800" height="600">
+          <!-- Lines from Concept to Branches -->
+          <line x1="400" y1="300" x2="400" y2="220" stroke="black" />
+          <line x1="300" y1="220" x2="400" y2="220" stroke="black" />
+          <line x1="420" y1="300" x2="420" y2="220" stroke="black" />
+          <line x1="520" y1="220" x2="420" y2="220" stroke="black" />
+          <line x1="400" y1="300" x2="400" y2="380" stroke="black" />
+          <line x1="300" y1="380" x2="400" y2="380" stroke="black" />
+          <line x1="420" y1="220" x2="420" y2="380" stroke="black" />
+          <line x1="520" y1="380" x2="420" y2="380" stroke="black" />
+      
+          <!-- Lines from Branches to Options -->
+          <line x1="250" y1="170" x2="100" y2="170" stroke="black" />
+          <line x1="250" y1="170" x2="250" y2="200" stroke="black" />
+          <line x1="250" y1="270" x2="250" y2="200" stroke="black" />
+          <line x1="250" y1="270" x2="100" y2="270" stroke="black" />
+          <line x1="250" y1="430" x2="250" y2="400" stroke="black" />
+          <line x1="720" y1="170" x2="600" y2="170" stroke="black" />
+          <line x1="600" y1="170" x2="600" y2="210" stroke="black" />
+          <line x1="600" y1="270" x2="600" y2="210" stroke="black" />
+          <line x1="720" y1="270" x2="600" y2="270" stroke="black" />
+          <line x1="720" y1="430" x2="600" y2="430" stroke="black" />
+          <line x1="600" y1="330" x2="600" y2="370" stroke="black" />
+          <line x1="720" y1="330" x2="600" y2="330" stroke="black" />
+          <line x1="600" y1="430" x2="600" y2="390" stroke="black" />
+          <line x1="250" y1="330" x2="250" y2="400" stroke="black" />
+          <line x1="100" y1="430" x2="250" y2="430" stroke="black" />
+          <line x1="100" y1="330" x2="250" y2="330" stroke="black" />
+
+        </svg>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
