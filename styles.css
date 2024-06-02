@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6e1ed;
+    margin: 0;
+  }
+  .mindmap {
+    position: relative;
+    width: 900px;
+    height: 600px;
+  }
+  .node {
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .concept {
+    background-color: #b696f6;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #8047a8;
+    box-shadow: 0 0 5px 2px #8047a8;
+  }
+  .evaluation {
+    background-color: #ffb6e3;
+    top: 32.8%;
+    left: 21.2%;
+    border: 2px solid #ff65c4;
+    box-shadow: 0 0 5px 2px #ff65c4; 
+  }
+  .study-case {
+    background-color: #d7e892;
+    top:33%;
+    left: 58%;
+    border: 2px solid #7bd952;
+    box-shadow: 0 0 5px 2px #7bd952;
+  }
+  .conclusion {
+    background-color: #ffd18c;
+    top: 59.3%;
+    left: 20.2%;
+    border: 2px solid #ff914d;
+    box-shadow: 0 0 5px 2px #ff914d;
+  }
+  .target-market {
+    background-color: #79ceff;
+    top: 59.7%;
+    left: 58%;
+    border: 2px solid #37b6ff;
+    box-shadow: 0 0 5px 2px #37b6ff;
+  }
+  .option {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+  }
+  .option-ev1 { 
+    top: 25.2%; left: 0%; 
+    border: 2px solid #ffb5e3;
+    box-shadow: 0 0 5px 2px #ffb5e3; 
+  }
+  .option-ev2 { 
+    top: 40%; left: 0%;
+    border: 2px solid #ffb5e3;
+    box-shadow: 0 0 5px 2px #ffb5e3;  
+  }
+  .option-sc1 { 
+    top: 25.7%; left: 80%; 
+    border: 2px solid #d7e892;
+    box-shadow: 0 0 5px 2px #d7e892;
+  }
+  .option-sc2 { 
+    top: 40.4%; left: 80%;
+    border: 2px solid #d7e892;
+    box-shadow: 0 0 5px 2px #d7e892;
+   }
+  .option-cn1 { 
+    top: 51.7%; left: 0%; 
+    border: 2px solid #ffd18c;
+    box-shadow: 0 0 5px 2px #ffd18c;
+  }
+  .option-cn2 { 
+    top: 66.7%; left: 0%; 
+    border: 2px solid #ffd18c;
+    box-shadow: 0 0 5px 2px #ffd18c;
+  }
+  .option-tm1 { 
+    top: 52.1%; left: 80%;
+    border: 2px solid #79ceff;
+    box-shadow: 0 0 5px 2px #79ceff;
+  }
+  .option-tm2 { 
+    top: 67%; left: 80%;
+    border: 2px solid #79ceff;
+    box-shadow: 0 0 5px 2px #79ceff;
+  }
